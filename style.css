@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+ {
+}
+#here {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+    
+}
+li {
+    padding-top: ;
+}
+
+
+@media(min-width: 567px){
+    main {
+        max-width: 540px;
+    }
+}
+@media(min-width: 768px){
+    main {
+        max-width: 720px;
+    }
+}
+@media(min-width: 992px){
+    main {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        background-color: aqua;
+        }
+    h1 {
+        color:brown;
+    }
+    #img-caption {
+        font-size: 15px;
+    }
+    #img-div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img {
+        width: 100%;
+    }
+}
+main {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 1rem;
+    background-color: rgba(209, 204, 204, 0.575);
+    max-width: 98%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+
+}
+body {
+    background-color: rgba(0, 0, 255, 0.089);
+}
+.me {
+    text-align: center;
+    color: rgb(33, 185, 185);
+
+}
+#tribute-info {
+    padding-bottom: 20px;
+}
+#title {
+    padding-bottom: 30px;
+    font-size: 45px;
+    font-family: krona one;
+    
+}
+img {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+#img-div {
+    background-color:white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 97%;
+    
+}
+#you {
+    text-align: center;
+}
+#img-caption {
+    text-align: center;
+    padding-top: 10px;
+    line-height: 25px;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    min-width: 97%;
+    height: auto;
+    }
+.list {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    
+}
+.to {
+    padding-top: 40px;
+    max-width: 600px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+} 
+#last {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 30px;
+    font-style: italic;
+}
+#or {
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 50px;
+}   
+#tribute-link {
+    line-height: 40px;
+
+}
